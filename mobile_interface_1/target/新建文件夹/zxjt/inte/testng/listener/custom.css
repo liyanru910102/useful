@@ -1,0 +1,17 @@
+.td-top {
+	vertical-align: top;
+}
+
+.td-width {
+	width: 50%;
+}
+
+.msgbox {
+	display: none;
+}
+
+.box-trigger {
+	float: right;
+	cursor: pointer;
+	margin-left: 20px;
+}

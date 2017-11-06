@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="zxjt.inte.dao.A01_2SJKMMSLCXDao">
+
+	<select id="getParamsInfo" resultType="A01_2SJKMMSLCX" parameterType="int">
+		<!-- 具体的sql -->
+	SELECT C.ID AS 'id',S.SERVICE_FUNCTION_ID AS 'url',C.CNAME AS 'cname'
+	,R.CVALUE AS 'cvalue',R.RID AS 'rowindex' ,C.`DESC` AS 'desc'
+	,S.SERVICE_CONTENT AS 'content'
+	FROM T_ROW_PTYW_INFO R  , T_COLUMN_PTYW_INFO C,T_SERVICE_INFO S
+	WHERE R.ID = #{id}
+	AND S.ID = R.ID
+	AND C.ID = R.ID
+	AND R.CID = C.CID
+	</select>
+
+</mapper>

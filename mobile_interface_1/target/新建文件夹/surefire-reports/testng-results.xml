@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="zxjt.mobile_interface_1.AppTest" duration-ms="14" started-at="2017-10-23T09:25:27Z" finished-at="2017-10-23T09:25:27Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="14" started-at="2017-10-23T09:25:27Z" finished-at="2017-10-23T09:25:27Z">
+    </test> <!-- Command line test -->
+  </suite> <!-- zxjt.mobile_interface_1.AppTest -->
+</testng-results>

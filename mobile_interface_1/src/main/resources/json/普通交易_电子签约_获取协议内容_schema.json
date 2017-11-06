@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-03/schema",
+  "id": "#",
+  "required": true,
+  "type": "object",
+  "properties": {
+    "cljg": {
+      "id": "cljg",
+      "required": true,
+      "type": "array",
+      "items": {
+        "id": "0",
+        "required": true,
+        "type": "object",
+        "properties": {
+          "code": {
+            "id": "code",
+            "required": true,
+            "type": "string"
+          },
+          "message": {
+            "id": "message",
+            "required": true,
+            "type": "string"
+          }
+        }
+      }
+    },
+    "fhxx": {
+      "id": "fhxx",
+      "required": true,
+      "type": "array",
+      "items": {
+        "id": "0",
+        "required": true,
+        "type": "object",
+        "properties": {
+          "xywbnr": {
+            "id": "xywbnr",
+            "required": true,
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

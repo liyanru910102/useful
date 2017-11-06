@@ -1,0 +1,237 @@
+{
+  "$schema": "http://json-schema.org/draft-03/schema",
+  "id": "#",
+  "required": true,
+  "type": "object",
+  "properties": {
+    "cljg": {
+      "id": "cljg",
+      "required": true,
+      "type": "array",
+      "items": {
+        "id": "0",
+        "required": true,
+        "type": "object",
+        "properties": {
+          "code": {
+            "id": "code",
+            "required": true,
+            "type": "string"
+          },
+          "message": {
+            "id": "message",
+            "required": true,
+            "type": "string"
+          }
+        }
+      }
+    },
+    "kmmxx": {
+      "id": "kmmxx",
+      "required": true,
+      "type": "array",
+      "items": {
+        "id": "0",
+        "required": true,
+        "type": "object",
+        "properties": {
+          "b1jg": {
+            "id": "b1jg",
+            "required": true,
+            "type": "string"
+          },
+          "b1sl": {
+            "id": "b1sl",
+            "required": true,
+            "type": "string"
+          },
+          "b2jg": {
+            "id": "b2jg",
+            "required": true,
+            "type": "string"
+          },
+          "b2sl": {
+            "id": "b2sl",
+            "required": true,
+            "type": "string"
+          },
+          "b3jg": {
+            "id": "b3jg",
+            "required": true,
+            "type": "string"
+          },
+          "b3sl": {
+            "id": "b3sl",
+            "required": true,
+            "type": "string"
+          },
+          "b4jg": {
+            "id": "b4jg",
+            "required": true,
+            "type": "string"
+          },
+          "b4sl": {
+            "id": "b4sl",
+            "required": true,
+            "type": "string"
+          },
+          "b5jg": {
+            "id": "b5jg",
+            "required": true,
+            "type": "string"
+          },
+          "b5sl": {
+            "id": "b5sl",
+            "required": true,
+            "type": "string"
+          },
+          "dtjg": {
+            "id": "dtjg",
+            "required": true,
+            "type": "string"
+          },
+          "gddm": {
+            "id": "gddm",
+            "required": true,
+            "type": "string"
+          },
+          "gfkys": {
+            "id": "gfkys",
+            "required": true,
+            "type": "string"
+          },
+          "hqscdm": {
+            "id": "hqscdm",
+            "required": true,
+            "type": "string"
+          },
+          "jrkpj": {
+            "id": "jrkpj",
+            "required": true,
+            "type": "string"
+          },
+          "jysdm": {
+            "id": "jysdm",
+            "required": true,
+            "type": "string"
+          },
+          "kmsl": {
+            "id": "kmsl",
+            "required": true,
+            "type": "string"
+          },
+          "s1jg": {
+            "id": "s1jg",
+            "required": true,
+            "type": "string"
+          },
+          "s1sl": {
+            "id": "s1sl",
+            "required": true,
+            "type": "string"
+          },
+          "s2jg": {
+            "id": "s2jg",
+            "required": true,
+            "type": "string"
+          },
+          "s2sl": {
+            "id": "s2sl",
+            "required": true,
+            "type": "string"
+          },
+          "s3jg": {
+            "id": "s3jg",
+            "required": true,
+            "type": "string"
+          },
+          "s3sl": {
+            "id": "s3sl",
+            "required": true,
+            "type": "string"
+          },
+          "s4jg": {
+            "id": "s4jg",
+            "required": true,
+            "type": "string"
+          },
+          "s4sl": {
+            "id": "s4sl",
+            "required": true,
+            "type": "string"
+          },
+          "s5jg": {
+            "id": "s5jg",
+            "required": true,
+            "type": "string"
+          },
+          "s5sl": {
+            "id": "s5sl",
+            "required": true,
+            "type": "string"
+          },
+          "sfjjts": {
+            "id": "sfjjts",
+            "required": true,
+            "type": "string"
+          },
+          "splx": {
+            "id": "splx",
+            "required": true,
+            "type": "string"
+          },
+          "wtdw": {
+            "id": "wtdw",
+            "required": true,
+            "type": "string"
+          },
+          "wtjg": {
+            "id": "wtjg",
+            "required": true,
+            "type": "string"
+          },
+          "zdcjj": {
+            "id": "zdcjj",
+            "required": true,
+            "type": "string"
+          },
+          "zdf": {
+            "id": "zdf",
+            "required": true,
+            "type": "string"
+          },
+          "zgcjj": {
+            "id": "zgcjj",
+            "required": true,
+            "type": "string"
+          },
+          "zjcjj": {
+            "id": "zjcjj",
+            "required": true,
+            "type": "string"
+          },
+          "zqdm": {
+            "id": "zqdm",
+            "required": true,
+            "type": "string"
+          },
+          "zqmc": {
+            "id": "zqmc",
+            "required": true,
+            "type": "string"
+          },
+          "zrspj": {
+            "id": "zrspj",
+            "required": true,
+            "type": "string"
+          },
+          "ztjg": {
+            "id": "ztjg",
+            "required": true,
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/draft-03/schema",
+  "id": "#",
+  "required": true,
+  "type": "object",
+  "properties": {
+    "cljg": {
+      "id": "cljg",
+      "required": true,
+      "type": "array",
+      "items": {
+        "id": "0",
+        "required": true,
+        "type": "object",
+        "properties": {
+          "code": {
+            "id": "code",
+            "required": true,
+            "type": "string"
+          },
+          "message": {
+            "id": "message",
+            "required": true,
+            "type": "string"
+          }
+        }
+      }
+    },
+    "zjlb": {
+      "id": "zjlb",
+      "required": true,
+      "type": "array",
+      "items": {
+        "id": "0",
+        "type": "object",
+        "required": true,
+        "properties": {
+          "ejzjkys": {
+            "id": "ejzjkys",
+            "type": "string",
+            "required": true
+          },
+          "zsz": {
+            "id": "zsz",
+            "type": "string",
+            "required": true
+          },
+          "yk": {
+            "id": "yk",
+            "type": "string",
+            "required": true
+          },
+          "zzc": {
+            "id": "zzc",
+            "type": "string",
+            "required": true
+          },
+          "hbdm": {
+            "id": "hbdm",
+            "type": "string",
+            "required": true
+          },
+          "zjkqs": {
+            "id": "zjkqs",
+            "type": "string",
+            "required": true
+          },
+          "zjye": {
+            "id": "zjye",
+            "type": "string",
+            "required": true
+          },
+          "zjzh": {
+            "id": "zjzh",
+            "type": "string",
+            "required": true
+          },
+          "yybdm": {
+            "id": "yybdm",
+            "type": "string",
+            "required": true
+          },
+          "zjkys": {
+            "id": "zjkys",
+            "type": "string",
+            "required": true
+          }
+        }
+      }
+    }
+  }
+}

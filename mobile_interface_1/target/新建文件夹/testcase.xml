@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><suite name="Suite" verbose="1">
+<listeners>
+	 <listener class-name="zxjt.inte.testng.listener.Listener"/>
+	 <listener class-name="zxjt.inte.testng.listener.Controller"/> 
+	
+</listeners>
+	<test enabled="false" name="TestloginA">
+		<classes>
+			<class name="zxjt.inte.web.A00LoginTest"/>
+
+		</classes>
+	</test>
+	<test enabled="false" name="TestloginB">
+		<classes>
+			<class name="zxjt.inte.web.B00LoginTest"/>
+
+		</classes>
+	</test>
+</suite>

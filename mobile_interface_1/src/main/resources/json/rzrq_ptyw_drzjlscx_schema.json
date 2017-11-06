@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-03/schema",
+  "id": "#",
+  "required": true,
+  "type": "object",
+  "properties": {
+    "cljg": {
+      "id": "cljg",
+      "required": true,
+      "type": "array",
+      "items": {
+        "id": "0",
+        "required": true,
+        "type": "object",
+        "properties": {
+          "code": {
+            "id": "code",
+            "required": true,
+            "type": "string"
+          },
+          "message": {
+            "id": "message",
+            "required": true,
+            "type": "string"
+          }
+        }
+      }
+    },
+    "cxlb": {
+      "id": "cxlb",
+      "required": true,
+      "type": "array",
+      "items": {
+        "id": "0",
+        "type": "object",
+        "required": true,
+        "properties": {
+          "hbmc": {
+            "id": "hbmc",
+            "type": "string",
+            "required": true
+          },
+          "ywbzsm": {
+            "id": "ywbzsm",
+            "type": "string",
+            "required": true
+          },
+          "cjjg": {
+            "id": "cjjg",
+            "type": "string",
+            "required": true
+          },
+          "cjje": {
+            "id": "cjje",
+            "type": "string",
+            "required": true
+          },
+          "cjsl": {
+            "id": "cjsl",
+            "type": "string",
+            "required": true
+          },
+          "ywbz": {
+            "id": "ywbz",
+            "type": "string",
+            "required": true
+          },
+          "dwc": {
+            "id": "dwc",
+            "type": "string",
+            "required": true
+          },
+          "hbdm": {
+            "id": "hbdm",
+            "type": "string",
+            "required": true
+          },
+          "fssj": {
+            "id": "fssj",
+            "type": "string",
+            "required": true
+          },
+          "zqmc": {
+            "id": "zqmc",
+            "type": "string",
+            "required": true
+          },
+          "fsje": {
+            "id": "fsje",
+            "type": "string",
+            "required": true
+          },
+          "zqdm": {
+            "id": "zqdm",
+            "type": "string",
+            "required": true
+          },
+          "fsrq": {
+            "id": "fsrq",
+            "type": "string",
+            "required": true
+          }
+        }
+      }
+    }
+  }
+}
